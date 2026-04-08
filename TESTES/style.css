@@ -1,0 +1,38 @@
+h1{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+#nome{
+    background-color: rgb(71, 59, 198);
+    color: aquamarine;
+}
+
+.cor-de-fundo{
+    background-color: burlywood;
+}
+
+.texto{
+    background-color: black;
+}
+
+p{
+    color: rgb(35, 225, 48);
+}
+
+.div-por-dentro{
+    background-color: aqua;
+}
+
+.div-por-fora{
+    background-color: brown;
+    height: 50px;
+    width: 30%;
+    position: relative;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+
