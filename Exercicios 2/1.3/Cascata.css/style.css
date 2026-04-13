@@ -1,0 +1,27 @@
+/* Não Altere o CSS Inicial, Apenas Adicione o Seu CSS. */
+
+.box {
+    background-color: blue;
+    padding: 10px;
+  }
+  
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .inner-box {
+    background-color: red;
+  }
+  
+  /* garantir que o texto dentro da caixa vermelha fique branco */
+  .inner-box p {
+    color: white;
+  }
+  
+  /* borda roxa no container externo */
+  #outer-box {
+    border: 10px solid purple;
+    margin: 10px;
+  }
