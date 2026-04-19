@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag{
+        background-color: #ce1126;
+        height: 600px;
+        width: 900px;
+        position: relative;
+        margin: 0;
+        color: white;
+    }
+
+    .flag > p {
+        text-align: center;
+        font-size: 5rem;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .flag > div {
+        background-color: #002868;
+        height: 300px;
+        width: 900px;
+        position: absolute;
+        top: 150px; /* Posiciona no centro vertical (600 - 300) / 2 */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flag > div > div {
+        background-color: #ffffff;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flag > div > div > p {
+        color: #000000;
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
