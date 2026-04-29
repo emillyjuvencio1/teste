@@ -1,0 +1,35 @@
+body{
+    background-color: #f5f7fa;
+    color: #1a1a1a;
+}
+
+header{
+    background-color: #0f172a;
+    color: white;
+}
+
+.news {
+    background-color: white;
+    color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    width: 70%;
+  }
+  
+  .barra-lateral{
+    color: #1a1a1a;
+    float: right;
+    width: 25%;
+  }
+  
+  footer {
+    clear: both;
+  }
+
+  .dobravel{
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    height: 300px; 
+  }
