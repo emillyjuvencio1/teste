@@ -1,41 +1,96 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 50px 50px 0 50px;
-    background-color: #faf9f6;
-    display: flex;
-    flex-direction: column;
-    min-height: 95vh;
-  }
-  
-  .main {
-    flex: 1;
-    display: inline-block;
-    width: 50%;
-    gap: 20px;
-  }
-  
+  font-family: "Poppins", sans-serif;
+  background-color: #faf9f6;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+/* Container principal */
+.main {
+  flex: 1;
+}
+
+/* Logo */
+.logo {
+  color: #f4a261;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Título */
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 60px;
+  line-height: 1.1;
+}
+
+/* Palavra destacada */
+.creative {
+  color: #2d2f8f;
+}
+
+/* Container dos cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Card */
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 45%;
+}
+
+/* Imagem */
+.tile-image {
+  width: 150px;
+  height: auto;
+}
+
+/* Título do card */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Texto */
+.card-text {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Rodapé */
+footer {
+  text-align: right;
+  color: midnightblue;
+  margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   h1 {
-    font-size: 5rem;
-    float:inline;
-  }
-  
-  footer {
-    text-align: right;
-    color: midnightblue;
+    font-size: 3rem;
   }
 
-  .left{
-    float: left;
-    width: 200px;
-    height: 200px;
+  .cards {
+    flex-direction: column;
   }
 
-  .right{
-    float: right;
-    width: 200px;
-    height: 200px;
+  .card {
+    width: 100%;
   }
-
-  .destaque{
-    color: darkblue;
-  }
+}
